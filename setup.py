@@ -26,7 +26,7 @@ setup(name='osc_mpd',
     maintainer="Mathieu Lecarme",
     packages=['osc_mpd'],
     keywords=["osc", "mpd"],
-    #scripts=['bin/'],
+    scripts=['bin/oscmpd.py'],
     zip_safe=True,
     install_requires=["python-mpd", "pyOSC"],
 )
