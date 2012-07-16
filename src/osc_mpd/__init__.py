@@ -19,4 +19,4 @@ class OSC_MPD(object):
         self.server.addMsgHandler('/bearstech/music/stop', musicManage)
 
     def serve_forever(self):
-        self.serve_forever()
+        self.server.serve_forever()
